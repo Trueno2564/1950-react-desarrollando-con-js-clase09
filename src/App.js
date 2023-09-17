@@ -12,41 +12,33 @@ function App() {
   const [colaboradores, actualizarColaboradores] = useState([{
     id: uuid(),
     equipo: "Front End",
-    foto: "https://github.com/harlandlohora.png",
-    nombre: "Harland Lohora",
-    puesto: "Instructor",
+    foto: "https://github.com/trueno2564.png",
+    nombre: "Brian Regalado",
+    puesto: "Ingeniero Mecatronico",
     fav: true
   },
   {
     id: uuid(),
     equipo: "Programación",
-    foto: "https://github.com/genesysaluralatam.png",
-    nombre: "Genesys Rondón",
+    foto: "https://scontent.fclo1-3.fna.fbcdn.net/v/t39.30808-6/289879695_3139814209575486_8811684228869220520_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=DPbSEgOAwlYAX_0b31n&_nc_ht=scontent.fclo1-3.fna&oh=00_AfCLkRSNpkjYq6Ij1t10-lUirJ_r70UOEnpN_69rfuTgpA&oe=650BABBD",
+    nombre: "Harrison Higidio",
     puesto: "Desarrolladora de software e instructora",
     fav: false
   },
   {
     id: uuid(),
     equipo: "UX y Diseño",
-    foto: "https://github.com/JeanmarieAluraLatam.png",
-    nombre: "Jeanmarie Quijada",
-    puesto: "Instructora en Alura Latam",
+    foto: "https://scontent.fclo1-3.fna.fbcdn.net/v/t1.18169-9/12936638_1774326876129459_1374310981278973375_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=j2og-Du5wJEAX9MuRFX&_nc_oc=AQlwuJUQs8sPRsuN6AewnrI-nXY6nRUcY8WDCBYxkLsvh2pbZP6XIgZmJ2QX00FbgxAAa_AqXQuXajufacq1kxsX&_nc_ht=scontent.fclo1-3.fna&oh=00_AfBaIBFK3STB-je90qevQ6C88fjZr0_mvKmQsuINTqlyGQ&oe=652DF55C",
+    nombre: "Jhonatan Daniel Ruiz",
+    puesto: "Instructor en Alura Latam",
     fav: false
   },
   {
     id: uuid(),
     equipo: "Programación",
-    foto: "https://github.com/christianpva.png",
-    nombre: "Christian Velasco",
-    puesto: "Head de Alura e Instructor",
-    fav: false
-  },
-  {
-    id: uuid(),
-    equipo: "Innovación y Gestión",
-    foto: "https://github.com/JoseDarioGonzalezCha.png",
-    nombre: "Jose Gonzalez",
-    puesto: "Dev FullStack",
+    foto: "https://scontent.fclo1-4.fna.fbcdn.net/v/t39.30808-6/272270171_5071101119576758_4119924163635823567_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=DmR9YzMuP2cAX8LpBcz&_nc_ht=scontent.fclo1-4.fna&oh=00_AfBxp4p1I03zBe9rRHRb_BhzaKjic7lPO7y6PWRXkat30Q&oe=650BCA42",
+    nombre: "Fabio Casanova",
+    puesto: "Instructor en Alura Latam",
     fav: false
   }])
 
